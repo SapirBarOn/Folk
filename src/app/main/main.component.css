@@ -1,0 +1,21 @@
+app-header, app-player,  app-footer{
+    width: 100%;
+    height : 56px;
+    display: block;
+}
+
+
+app-header{
+    background-color:#0c1e35; 
+}
+
+app-player{
+    background-color:#1e395a; 
+}
+
+.bg{
+    background: #173356 url('../../assets/images/bg1.png');
+    width:100%;
+    height: 250px;
+}
+

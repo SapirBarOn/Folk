@@ -1,0 +1,107 @@
+h1{
+  font-family:HelveticaNeue-Bold;
+  font-size:25px;
+  color:#dbdbdb;
+  letter-spacing:0;
+  text-align:center;
+  margin-top:-13.5%;
+}
+
+span{
+  font-size:30px;
+}
+
+p{
+  font-family:LucidaGrande;
+  font-size:25px;
+  color:#fefeff;
+  letter-spacing:0;
+  margin-top: 2%;
+  text-align: center;
+}
+
+
+img{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 0.5%;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+   position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 1px;
+    background: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    background:url("../../../../assets/images/buttonRythm.png") no-repeat;
+    margin-top: -20px;
+
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+
+h3{
+  color: #e8e9ed;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-top: 11%;
+}
+
+h3+h3{
+  float: right;
+  margin-right: -21.5%;
+  margin-top: -2.4%;
+}
+
+button{
+    border:1px solid #fff;
+    width: 18%;
+    height: 9%;
+    background: #0c1e35;
+    color: #fff;
+    margin-left: 41.5%;
+    margin-top: 12%;
+    font-size: 18px;
+}
+
+#circle{
+  position: relative;
+  float: right;
+}
+
+#circle >img {
+    position: relative;
+    background:#203248;
+    opacity:1;
+}
+
+#number {
+  opacity:0.21;
+  transform:rotate(-270deg);
+  font-family:HelveticaNeue-Bold;
+  font-size:40px;
+  font-weight: bold;
+  color:#ffffff;
+  letter-spacing:0;
+  float: right;
+  margin-right: -34%;
+  margin-top: 3%;
+}

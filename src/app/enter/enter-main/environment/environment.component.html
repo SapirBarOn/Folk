@@ -1,0 +1,20 @@
+<h1>Help us create the best<br>playlist for <span>you</span></h1>
+<p>What is your favorite environment?</p>
+<div id="circle" 
+    [style.marginTop.px]="circle.MarginTop" 
+    [style.marginRight.px]="circle.MarginRight" 
+    *ngFor="let circle of circles">
+    <img  [src]="circle.Img"/> 
+</div>
+<p id="number">04</p>
+<div id="env"
+     *ngFor="let environment of environment" 
+     [style.marginTop.px]="environment.MarginTop" 
+     [style.marginLeft.px]="environment.MarginLeft"
+     (click)="choose(environment)">
+    <img *ngIf="environment.ImgCurrent===environment.ImgSrcAfter" class="first" src="assets/images/x.png"/>
+    <img [src]= "environment.ImgCurrent"/>
+    <p>{{environment.text}}</p>
+</div>
+
+<button *ngIf="choosed" routerLink="/ryhtm">NEXT</button>

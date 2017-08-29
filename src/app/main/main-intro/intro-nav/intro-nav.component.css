@@ -1,0 +1,35 @@
+
+nav ul{
+    margin-top: 23%;
+    margin-left: 15%;
+}
+
+nav li span{
+    font-weight: bold;
+}
+
+nav ul li{
+    text-align:left;
+    padding-top: 10%;
+}
+
+nav ul li img{
+    padding-right: 10%;
+}
+
+nav li a {
+    width: 105%;
+    text-decoration: none;
+    font-family:HelveticaNeue-Medium;
+    font-size:15px;
+    color:#ffffff;
+    letter-spacing:0;
+    cursor: pointer;
+}
+
+nav li a:hover {
+    background:#236875;
+    border-radius: 0;
+    height: 35px;
+    color: #ffffff;
+}

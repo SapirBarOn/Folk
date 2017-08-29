@@ -1,0 +1,29 @@
+<h1>Help us create the best<br>playlist for <span>you</span></h1>
+<p>what is your favorite era?</p>
+<p>you can chooce more the one</p>
+
+<div id="line"></div>
+
+<div id="era" 
+[style.marginTop.px]="era.MarginTop" 
+[style.marginLeft.px]="era.MarginLeft"
+(click)="choose(era)"
+*ngFor="let era of era">
+    <img *ngIf="era.ImgCurrent===era.ImgSrcAfter" class="first" src="assets/images/x.png"/>
+    <img  [src]="era.ImgCurrent"/> 
+    <img  id="dotBefore"  [src]="era.DotCurrent"/>
+    <h4>  {{era.text}}</h4>
+</div>
+<div id="circle" 
+    [style.marginTop.px]="circle.MarginTop" 
+    [style.marginRight.px]="circle.MarginRight" 
+    *ngFor="let circle of circles">
+    <img  [src]="circle.Img"/> 
+</div>
+<p id="number">02</p>
+
+<button *ngIf="choosed" routerLink="/instrument">Next</button>
+
+
+
+

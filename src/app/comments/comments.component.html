@@ -1,0 +1,6 @@
+<h2>Comments ({{comments.length}})</h2>   
+<h6>Show more..</h6>
+<div *ngFor="let c of comments">
+    <h4>{{c.userName}}</h4>
+    <p>{{c.comment}}</p>
+</div>

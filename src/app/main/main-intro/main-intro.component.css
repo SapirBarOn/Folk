@@ -1,0 +1,97 @@
+app-intro-nav, .content{
+    float : left;
+    background-color: #173356;
+}
+
+app-intro-nav{
+    min-height: 2085px;
+    width : 15%;
+}
+
+.content{
+    height: 100%;
+    width : 85%;
+}
+
+app-intro-favorite, app-intro-popular,app-intro-albums{
+    background: url('../../../assets/images/albums_bg.png');
+    width: 90%;
+    display: block;
+    color : #fff;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+
+app-intro-favorite{
+    height: 670px;    
+}
+
+app-intro-popular{
+    height: 350px;    
+    z-index: 1;
+}
+
+app-intro-albums{
+    height: 700px;    
+
+}
+
+app-intro-playlist{
+    background: #284262;
+    height: 800px;
+    width: 91%;
+    display: block;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+
+/*app-intro-nav, .content{
+    float : left;
+    background-color: #173356;
+}
+
+app-intro-nav{
+    height: 2078px;
+    width : 15%;
+}
+
+.content{
+    height: 100%;
+    width : 85%;
+}
+
+app-intro-favorite, app-intro-popular,app-intro-albums{
+    background: url('../../../assets/images/albums_bg.png');
+    width: 90%;
+    display: block;
+    color : #fff;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+
+app-intro-favorite{
+    height: 670px;    
+}
+
+app-intro-popular{
+    height: 350px;    
+    z-index: 1;
+}
+
+app-intro-albums{
+    height: 700px;    
+
+}
+
+app-intro-playlist{
+    background: #284262;
+    height: 800px;
+    width: 91%;
+    display: block;
+    margin-top: 70px;
+    margin-left: 33px;
+}
+*/

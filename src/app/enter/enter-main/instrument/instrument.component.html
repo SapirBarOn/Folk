@@ -1,0 +1,22 @@
+<h1>Help us create the best<br>playlist for <span>you</span></h1>
+<p>Which instruments do you like most?</p>
+
+<img id="lines" src="assets/images/lines.png"> 
+<div id="instruments" [style.marginTop.px]="instrument.MarginTop" [style.marginLeft.px]="instrument.MarginLeft" *ngFor="let instrument of instrument; let odd = odd; let even = even; let i = index " (click)="choose(instrument)">
+    <h4  *ngIf= " even">  {{instrument.text}}  </h4>
+    <img *ngIf="instrument.ImgCurrent===instrument.ImgSrcAfter" class="first" src="assets/images/x.png"/>
+    <img id="dotBefore1" *ngIf =" odd" [src]="instrument.DotCurrent"/>
+    <img  [src]="instrument.ImgCurrent" /> 
+    <img  id="dotBefore" *ngIf =" even" [src]="instrument.DotCurrent"/>
+    <h4 *ngIf= " odd" >  {{instrument.text}}</h4>
+</div>
+<div id="circle" 
+    [style.marginTop.px]="circle.MarginTop" 
+    [style.marginRight.px]="circle.MarginRight" 
+    *ngFor="let circle of circles">
+    <img  [src]="circle.Img"/> 
+</div>
+<p id="number">03</p>
+
+
+<button *ngIf="choosed" routerLink="/environment">Next</button>

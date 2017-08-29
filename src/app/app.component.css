@@ -1,0 +1,8 @@
+app-main, app-enter{
+    width: 100%;
+    display: block;
+}
+
+app-enter{
+    background:url('../assets/images/bg_account.png');
+}

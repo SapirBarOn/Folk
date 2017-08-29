@@ -1,0 +1,11 @@
+
+<div class="clear">
+
+<div id="album">
+    <app-album-item 
+    *ngFor="let item of albums"
+    [album]="item"
+    (albumSelected)="onAlbumClick(item)">
+    </app-album-item>
+</div>
+

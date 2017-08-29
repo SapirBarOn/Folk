@@ -1,0 +1,27 @@
+<div class="songs" id="style">  
+    <div class="row" *ngFor="let s of songs" >
+        <ul >
+            <li>
+                <div class="col-md-1">
+                    <img src="assets/images/play1.png" *ngIf="isPlayed == false"  (click)="onPlayClick(s)">
+                    <img src="assets/images/puse1.png" (click)="onPuseClick(s)" *ngIf="isPlayed == true">
+                    <img src='{{s.songImg}}'>
+                </div>
+                <div class="col-md-3">{{s.songName}}</div>    
+                <div class="col-md-3">{{s.singerName}}</div>
+                <div class="col-md-2">{{s.name}}</div>
+                <div class="col-md-1">{{s.time}}</div>
+                <div class="col-md-1"><img src='assets/images/like.png'> {{s.likes}}</div>
+                <div class="col-md-1"><img src='assets/images/upload1.png'> <img src='assets/images/add.png'></div>
+            </li>       
+        </ul>        
+    </div>
+
+    <youtube-player
+      [videoId]="id"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+></youtube-player> 
+</div>
+
+ 

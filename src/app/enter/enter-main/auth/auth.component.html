@@ -1,0 +1,22 @@
+<h1>create your account</h1>
+<div>  
+    <h2>Let folk music inspire you</h2>
+    <p>First, create your account.<br>
+    Then you can enjoy all our music<br> 
+    and we will build your own personal<br>
+    folk songs playlist<br></p>
+</div>
+<div id="circle" 
+    [style.marginTop.px]="circle.MarginTop" 
+    [style.marginRight.px]="circle.MarginRight" 
+    *ngFor="let circle of circles">
+    <img  [src]="circle.Img"/> 
+</div>
+<p id="number">01</p>
+<form #f="ngForm">
+    <input #usrname type="text" name="username" ngModel placeholder="username" required>
+    <input #pass type="password" name="password" ngModel placeholder="password" required>
+    <input #email type="email" name="email" ngModel placeholder="E-mail" required>
+    <button (click)="createNewUser()" class="temp" routerLink="/years" type="submit" [disabled]="!f.valid">Create Account</button>
+</form>
+

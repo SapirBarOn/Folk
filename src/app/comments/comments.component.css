@@ -1,0 +1,30 @@
+h6{
+    color:#dadada;
+    font-size: 8px;
+    margin-left: 520px;
+    margin-top: -35px;
+}
+div{
+    display: inline-block;
+    max-width: 150px;
+    min-height: 20px;
+    color:#ffffff;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+
+h2{
+    font-size: 17px;
+    padding-left: 18px;
+
+}
+
+h4{
+    font-size: 10px;
+}
+
+p{
+    color:#dadada;
+    font-size: 8px;
+}
+

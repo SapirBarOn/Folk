@@ -1,0 +1,47 @@
+h1{
+    font-size: 30px;
+    border-bottom: 1px solid #c0c7cf;
+    width: 22%;
+    float: left;
+    padding-bottom: 1%;
+    color:#ffffff;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.content{
+    float : left;
+    background-color: #173356;
+    min-height: 2085px;
+    width : 85%;
+}
+
+app-intro-playlist{
+    background: #284262;
+    height: 800px;
+    width: 91%;
+    display: block;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+app-intro-favorite, app-intro-popular{
+    background: url('../../../../assets/images/albumsBg.png');
+    width: 90%;
+    display: block;
+    color : #fff;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+
+app-intro-favorite{
+    height: 600px; 
+    padding-top: 3%;   
+}
+
+app-intro-popular{
+    height: 350px;    
+    z-index: 1;
+    padding-top: 7%;
+}

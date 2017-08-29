@@ -1,0 +1,144 @@
+h1{
+    font-family:HelveticaNeue-Bold;
+    font-size:25px;
+    color:#dadada;
+    letter-spacing:0;
+    text-align:center;
+    margin-top:-13%;
+  }
+
+  h2{
+    font-family:LucidaGrande;
+    font-size:35px;
+    color:#ffffff;
+    letter-spacing:0;
+  }
+
+  div{
+    margin-top: 7%;
+    margin-left: 13%;
+  }
+
+  div p{
+    font-family:HelveticaNeue-Thin;
+    font-size:25px;
+    color:#e6e8ec;
+    letter-spacing:0;
+  }
+
+  div img{
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+  div h4{
+    font-size: 10px;
+    margin-left: 4%;
+    margin-top: -1%;
+    color: #97a1ae;
+  }
+
+  form >input{
+    position: relative;
+    background:#203c57;
+    border: none;
+    opacity: 0.8;
+    width:23.7%;
+    height:35px;
+    margin-right: 10%;
+    margin-top: -20%;
+    float: right;
+  }
+
+
+  form {
+    margin-top: 5%;
+    padding-right: 5%;
+  }
+
+  form input{
+    font-family:HelveticaNeue;
+    font-size:20px;
+    color:#fefefe;
+    letter-spacing:0;
+    text-indent:20px;
+  }
+
+  form input+input{
+    margin-top: -16.5%;
+  }
+
+  form input+input+input{
+    margin-top: -13%;
+  }
+
+/*  form input+input+input+input{
+    margin-top: -9%;
+    border:1px solid #cad0d6;
+    background: none;
+    width: 10%;
+    height: 40px;
+    opacity: 2;
+    margin-right: 23.5%;  
+    color: #cad0d6;
+    font-size: 15px;
+    text-indent:-3px;
+  }*/
+
+ button{
+    position: absolute;
+    margin-top: -8%;
+    border:1px solid #cad0d6;
+    background: none;
+    width: 10%;
+    height: 40px;
+    opacity: 2;
+    margin-left: 60.5%;  
+    color: #cad0d6;
+    font-size: 15px;
+    text-indent:-3px;
+  }
+
+  form input+input+input+input+input{
+    margin-top: -9%;
+    border:1px solid #cad0d6;
+    background: none;
+    width: 11%;
+    height: 40px;
+    opacity: 2;
+/*    margin-right:15%;
+*/margin-right: 10%;  
+  color: #ffffff;
+    font-size: 15px;
+    text-indent:-3px;
+  }
+
+  input{
+    cursor: pointer;
+  }
+
+
+#circle{
+  position: relative;
+  float: right;
+}
+
+#circle >img {
+    position: relative;
+    background:#203248;
+    opacity:1;
+ }
+
+#number {
+  opacity:0.21;
+  transform:rotate(-270deg);
+  font-family:HelveticaNeue-Bold;
+  font-size:40px;
+  font-weight: bold;
+  color:#ffffff;
+  letter-spacing:0;
+  float: right;
+  margin-right: 1%;
+    margin-top: 2%;
+  padding-right: 3%;
+}

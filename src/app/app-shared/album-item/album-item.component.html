@@ -1,0 +1,15 @@
+<div id="album">
+    <section routerLinkActive="active" routerLink="/content2/{{album._id}}" (click)="onSelected()" >
+        <img src='{{album.albumImg}}'>
+    </section>
+    <section>
+        <h4 (click)="onSelected()">{{album.albumName}}</h4>
+        <img (click)="onSelected()" src='{{album.djImg}}'>
+        <h3 (click)="onSelected()">{{album.djName}}</h3>
+        <h3 (click)="onSelected()">{{album.followers}} followers</h3>
+        <div>
+            <img src='assets/images/moreInformationButton.png'>
+            <img src='assets/images/playButton1.png'>
+        </div>
+    </section>
+</div>

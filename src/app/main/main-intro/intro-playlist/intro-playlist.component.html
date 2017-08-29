@@ -1,0 +1,37 @@
+<div id="subject">
+    <img src='{{albumDetails.albumImgSub}}'>
+    <h1>{{albumDetails.albumName}}</h1>
+    <div id="rate">
+        <img src='assets/images/star.png'>
+        <img src='assets/images/star.png'>
+        <img src='assets/images/star.png'>
+        <img src='assets/images/star.png'>
+    </div>
+    <h3>50 best folk song</h3>
+    <div id="buttons">
+        <button>Comment</button>
+        <button>Rate</button>
+    </div>
+        <div id="djDetails">
+        <img src='{{albumDetails.djImgSub}}'>
+        <h2>{{albumDetails.djName}}</h2>
+        <h3>{{albumDetails.followers}} followers</h3>
+        <h4>{{albumDetails.djUrl}}</h4> 
+    </div>
+    <div id="contact">
+        <img src="assets/images/heart2.png">
+        <img src="assets/images/instagram.png">
+        <img src="assets/images/facebook.png">
+    </div>
+</div>
+
+<app-intro-songs
+    *ngIf="albumDetails"
+    [songs] = "albumDetails.song"
+></app-intro-songs>
+
+<app-intro-comments
+    *ngIf="albumDetails"
+    [comments] = "albumDetails.comment"
+></app-intro-comments>
+

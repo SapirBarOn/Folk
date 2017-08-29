@@ -1,0 +1,20 @@
+<div class="clear">
+
+<div id="move">
+    <img src='assets/images/arrowL.png'>
+    <img src='assets/images/arrowR.png'>
+</div>
+
+<div id="album" *ngFor="let album of albums">
+
+    <section>
+<!--         <h2>{{album.likes}}</h2>
+ -->        <img src='{{album.albumImg}}' >
+    </section>
+    <section>
+        <h4>{{album.albumName}}</h4>
+        <img src='{{album.djImg}}'>
+        <h3>{{album.djName}}</h3>
+        <h3>{{album.followers}} followers</h3>
+    </section>
+</div>

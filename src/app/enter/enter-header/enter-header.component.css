@@ -1,0 +1,44 @@
+h1{
+    font-family:HelveticaNeue-Bold;
+    font-size:28px;
+    color:#ffffff;
+    font-weight: bold;
+    letter-spacing:1px;
+    padding-left: 4%;
+    position: absolute;
+    margin-top: 2.5%;
+}
+
+.active{
+    color:#60666c;
+    font-weight: bold;
+}
+
+a{
+    color:#fff;
+}
+
+a+a{
+    text-align:left;
+    font-family:HelveticaNeue-Medium;
+    font-size:14px;
+    letter-spacing:0;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 80.5%;
+    padding-top: 2.5%;    
+}
+
+a+a+a{
+    margin-left: 87%;
+    padding-top: 2.5%;
+}
+
+a+a+a+a{
+    padding-top: 2.5%;
+    margin-left: 92.5%; 
+}
+
+.bold{
+    color:#9b9b9b !important;   
+}

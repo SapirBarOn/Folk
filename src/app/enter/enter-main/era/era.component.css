@@ -1,0 +1,99 @@
+h1{
+  font-family:HelveticaNeue-Bold;
+  font-size:25px;
+  color:#dbdbdb;
+  letter-spacing:0;
+  text-align:center;
+  margin-top:-13%;
+}
+
+span{
+  font-size:30px;
+}
+
+p{
+  font-family:LucidaGrande;
+  font-size:25px;
+  color:#ffffff;
+  letter-spacing:0;
+  margin-top:3%;
+  text-align: center;
+}
+
+p+p{
+  font-family:HelveticaNeue-Light;
+  font-size:15px;
+  color:#848e9d;
+  letter-spacing:0;
+  text-align:center;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+
+#line{
+  border-bottom: 1px solid #ffffff;
+  width: 54%;
+  margin-left: 23%;
+  margin-top: 13%;
+}
+
+#era{
+    height: 100px;
+    width: 5%;
+    position: absolute;
+    cursor: pointer;
+    padding-bottom: 5%;
+}
+
+h4{
+    font-family:LucidaGrande;
+    font-size:15px;
+    color:#ffffff;
+    margin-left: 36%;
+}
+
+#dotBefore{
+  margin-left: 51%;
+}
+
+.first {
+  position: absolute;
+  top:2%;
+  left:110%;
+}
+
+button{
+    border:1px solid #85878b;
+    width: 11%;
+    height: 9%;
+    background: none;
+    color: #d5d5d6;
+    margin-left: 45%;
+    margin-top: 9%;
+    font-size: 18px;
+}
+
+#circle{
+  position: relative;
+  float: right;
+}
+
+#circle >img {
+    position: relative;
+    background:#203248;
+    opacity:1;
+ }
+
+ #number {
+  opacity:0.21;
+  transform:rotate(-270deg);
+  font-family:HelveticaNeue-Bold;
+  font-size:40px;
+  font-weight: bold;
+  color:#ffffff;
+  letter-spacing:0;
+  float: right;
+  margin-right: 2.5%;
+  margin-top: -1%;
+}

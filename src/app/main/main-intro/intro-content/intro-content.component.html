@@ -1,0 +1,28 @@
+<div class="content">
+
+    <img src ="assets/images/loveIconAlbums.png">
+    <h1> Favorite </h1>
+    <input id="inputFav" type="text" class="input" name="" placeholder="Search"/>
+
+    <app-intro-favorite
+        name="favorite"
+        (albumSelected)="onAlbumSelected($event)"
+    ></app-intro-favorite>
+
+    <div id="line"></div>
+
+    <img src='assets/images/popularIconAlbums.png'>
+    <h1 id="popular"> Popular Playlist</h1>
+
+    <app-intro-popular
+        name="popular"> 
+    </app-intro-popular>
+
+    <div id="line"></div>
+
+    <app-intro-albums
+        name="albums">
+        
+    </app-intro-albums>
+
+</div>

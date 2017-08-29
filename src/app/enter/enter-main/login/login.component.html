@@ -1,0 +1,18 @@
+<h1>create your account</h1>
+<div>  
+    <h2>Let folk music inspire you</h2>
+    <p>First, create your account.<br>
+    Then you can enjoy all our music<br> 
+    and we will build your own personal<br>
+    folk songs playlist<br>
+</div>
+ <form #f="ngForm">
+    <input #usrname type="text" name="username" ngModel placeholder="username" required>
+    <input #pass type="password" name="password" ngModel placeholder="password" required>
+    <button (click)="findUser()" type="submit" [disabled]="!f.valid">Login</button>
+</form>
+
+<div class="res"
+    *ngIf="response">
+    <p>{{response}}</p>
+</div>

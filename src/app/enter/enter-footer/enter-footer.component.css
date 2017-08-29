@@ -1,0 +1,36 @@
+footer{
+    height: 56px;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color:#ffffff;
+    padding-right:2%; 
+}
+
+#line{
+    width: 28%;
+    height: 1%;
+    margin-left: 4%;
+    border-top: 1px solid #fff;
+    opacity: 0.3;
+}
+
+footer div+div{
+    position:absolute;
+    padding-top: 1.5%;
+    padding-left: 4%;
+    width: 70% 
+}
+
+footer div+div+div{
+    position: absolute;
+    padding-left:79%; 
+    width: 100%;
+}
+
+footer div+div+div a{
+    padding-left: 5%; 
+}
+

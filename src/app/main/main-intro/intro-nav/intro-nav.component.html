@@ -1,0 +1,22 @@
+<nav>
+    <ul class="nav nav-pills nav-stacked">
+        <li>
+            <a  (click)="onNavSelectedClick('home')" ><img src='assets/images/home.png'>Home</a>
+        </li>
+        <li>
+            <a (click)="onNavSelectedClick('favorite')" ><img src='assets/images/love.png'>Favorite</a>
+        </li>
+        <li>
+            <a href="popular" ><img src='assets/images/popularIcon.png'><span>Popular</span> Playlist</a>
+        </li>
+        <li>
+            <a routerLinkActive="active" href="#albums"><img src='assets/images/albumIcon.png'>Albums</a>
+        </li>
+        <li>
+            <a ><img src='assets/images/playlistIcon.png'><span>Your</span> Playlist</a>
+        </li>
+        <li>
+            <a routerLink="" routerLinkActive="active" ><img src='assets/images/djIcon.png'>Dj</a>
+        </li>
+    </ul>
+</nav>

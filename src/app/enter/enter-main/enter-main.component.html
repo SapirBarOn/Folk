@@ -1,0 +1,17 @@
+<div id="lineLeft"></div>
+<div id="lineRight"></div>
+
+<router-outlet>
+    
+</router-outlet>
+
+<div id="music">
+    <img  (click)="onClick()" src="assets/images/mute.png">
+    <h4>Mute</h4>
+</div>
+
+<youtube-player
+      [videoId]="id"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+></youtube-player> 

@@ -1,0 +1,17 @@
+<app-intro-nav
+    (onNavSelected)="onNavRec($event)">
+    
+</app-intro-nav>
+
+<app-intro-content
+        *ngIf="!albumToView"
+        (albumSelected)="onAlbumSelected($event)"
+></app-intro-content>
+
+<app-intro-content2
+        *ngIf="albumToView"
+        [content2Album]="albumToView"
+></app-intro-content2>
+
+
+<div class="clear"></div>

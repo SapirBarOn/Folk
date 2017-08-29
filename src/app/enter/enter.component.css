@@ -1,0 +1,17 @@
+app-enter-header, app-enter-main, app-footer{
+    display: block;
+    width : 100%;
+}
+
+app-enter-main{
+   min-height: 479px;  
+}
+
+
+app-enter-header{
+    height: 80px;
+}
+
+youtube-player{
+    display: none;
+}

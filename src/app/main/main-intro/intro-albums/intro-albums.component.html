@@ -1,0 +1,21 @@
+<img src='assets/images/albumIconAlbums.png'>
+<h1>Albums </h1>
+<img id="icon" src='assets/images/sortButtonAl.png'>
+<div class="clear">
+<input type="text" class="input" name="" placeholder="Search"/>
+
+
+<div id="album" *ngFor="let album of userAlbums">
+    <section>
+        <img src='{{album.albumImg}}'>
+    </section>
+    <section>
+        <h4>{{album.albumName}}</h4>
+        <h3>{{album.singerName}}</h3>
+        <div>
+            <img src='assets/images/heart.png'>
+            <img src='assets/images/play.png'>
+            <img src='assets/images/moreInformationButton.png'>
+        </div>
+    </section>
+</div> 
